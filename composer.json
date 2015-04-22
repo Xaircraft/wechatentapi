@@ -1,0 +1,21 @@
+{
+	"name": "xaircraft/wechatentapi",
+	"description": "WeChat Enterprise API Library",
+	"type": "component",
+	"authors": [
+		{
+			"name": "Xaircraft web team",
+			"email": "liubo@xair.cn"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.5.0",
+		"phpunit/phpunit": "4.3.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"wechatentapi\\": "src/"
+		}
+	}
+}
